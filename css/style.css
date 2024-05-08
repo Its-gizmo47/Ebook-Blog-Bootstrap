@@ -2,6 +2,15 @@
   color: #333;
 }
 
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-effect {
+  opacity: 0.8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 header {
   background: url(../images/header-background.jpg);
   background-size: cover;
