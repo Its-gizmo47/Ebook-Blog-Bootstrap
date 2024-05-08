@@ -8,3 +8,13 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 992px) {
+  .hero .img-container {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .text-container {
+    text-align: center;
+  }
+}
