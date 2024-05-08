@@ -2,13 +2,63 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Free E-Book | Start Your Own Blog</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
-    <h1>Hello</h1>
+  <body style="background-color: bisque">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="./images/logo.png" width="225" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenuDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenuDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#details" class="nav-link">Details</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="contact.html"
+                class="nav-link btn btn-outline-light fw-semibold mx-4 px-4"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section  -->
+    <h4 class="mt-8">12 rem</h4>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
