@@ -3412,14 +3412,14 @@ textarea.form-control-lg {
 
 .btn-lg, .btn-group-lg > .btn {
   --bs-btn-padding-y: 0.5rem;
-  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-x: 30px;
   --bs-btn-font-size: 1.25rem;
   --bs-btn-border-radius: var(--bs-border-radius-lg);
 }
 
 .btn-sm, .btn-group-sm > .btn {
-  --bs-btn-padding-y: 0.25rem;
-  --bs-btn-padding-x: 0.5rem;
+  --bs-btn-padding-y: 10px;
+  --bs-btn-padding-x: 30px;
   --bs-btn-font-size: 0.875rem;
   --bs-btn-border-radius: var(--bs-border-radius-sm);
 }
@@ -3845,13 +3845,13 @@ textarea.form-control-lg {
 }
 
 .btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split {
-  padding-right: 0.375rem;
-  padding-left: 0.375rem;
+  padding-right: 22.5px;
+  padding-left: 22.5px;
 }
 
 .btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  padding-right: 22.5px;
+  padding-left: 22.5px;
 }
 
 .btn-group-vertical {
