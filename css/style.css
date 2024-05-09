@@ -46,3 +46,8 @@ header {
     text-align: center;
   }
 }
+@media (max-width: 767px) {
+  nav {
+    background-color: #333;
+  }
+}
